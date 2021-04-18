@@ -3,6 +3,8 @@
 
 
     <string name="Buscar">Buscar</string>
-    <string name="SuaBiblioteca">Sua Biblioteca</string>
+    <string name="SuaBiblioteca">Biblioteca</string>
     <string name="Inicio">Início</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
