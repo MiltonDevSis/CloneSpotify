@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MySpotify</string>
+
+
+    <string name="Buscar">Buscar</string>
+    <string name="SuaBiblioteca">Sua Biblioteca</string>
+    <string name="Inicio">Início</string>
 </resources>

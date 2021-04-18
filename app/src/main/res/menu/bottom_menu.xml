@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navi_inicio"
+        android:icon="@drawable/ic_home"
+        android:title="@string/Inicio"
+        />
+
+    <item
+        android:id="@+id/navi_buscar"
+        android:icon="@drawable/ic_search"
+        android:title="@string/Buscar"
+        />
+
+    <item
+        android:id="@+id/navi_biblioteca"
+        android:icon="@drawable/ic_sort"
+        android:title="@string/SuaBiblioteca"
+        />
+</menu>
