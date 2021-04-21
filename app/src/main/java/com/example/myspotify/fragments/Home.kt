@@ -42,7 +42,7 @@ class Home : Fragment() {
             val albuns: MutableList<Album> = ArrayList()
             for (a in 0..19){
                 val album = Album()
-                album.album = R.drawable.spotify
+                //album.album = R.drawable.spotify
                 albuns.add(album)
             }
 

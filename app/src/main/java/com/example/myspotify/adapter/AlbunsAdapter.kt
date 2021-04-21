@@ -27,6 +27,6 @@ class AlbunsAdapter(private val albuns: MutableList<Album>): RecyclerView.Adapte
 class AlbunsHolder(itemView: View): RecyclerView.ViewHolder(itemView){
 
     fun bind(album: Album){
-        itemView.image_album.setImageResource(album.album)
+        //itemView.image_album.setImageResource(album.album)
     }
 }
