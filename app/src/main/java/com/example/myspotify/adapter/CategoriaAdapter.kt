@@ -11,7 +11,7 @@ import com.example.myspotify.model.Categoria
 import kotlinx.android.synthetic.main.categoria_item.view.*
 
 class CategoriaAdapter(
-    private val categorias: MutableList<Categoria>,
+    internal val categorias: MutableList<Categoria>,
     private val context: Context
 ) : RecyclerView.Adapter<CategoriaAdapter.CategoriaHolder>() {
 

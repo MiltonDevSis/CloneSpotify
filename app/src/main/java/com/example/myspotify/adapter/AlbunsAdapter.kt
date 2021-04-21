@@ -6,9 +6,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myspotify.R
 import com.example.myspotify.model.Album
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.album_item.view.*
 
-class AlbunsAdapter(private val albuns: MutableList<Album>): RecyclerView.Adapter<AlbunsHolder>() {
+class AlbunsAdapter(private val albuns: List<Album>): RecyclerView.Adapter<AlbunsHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AlbunsHolder {
         val view = LayoutInflater.from(parent.context)
@@ -27,6 +28,10 @@ class AlbunsAdapter(private val albuns: MutableList<Album>): RecyclerView.Adapte
 class AlbunsHolder(itemView: View): RecyclerView.ViewHolder(itemView){
 
     fun bind(album: Album){
-        //itemView.image_album.setImageResource(album.album)
+        Picasso.get()
+            .load(album.album)
+            .placeholder(R.drawable.placeholder)
+            .fit()
+            .into(itemView.image_album)
     }
 }
