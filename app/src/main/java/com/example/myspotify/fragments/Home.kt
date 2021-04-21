@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.example.myspotify.R
-import com.example.myspotify.fragments.adapter.CategoriaAdapter
+import com.example.myspotify.adapter.CategoriaAdapter
+import com.example.myspotify.model.Album
 import com.example.myspotify.model.Categoria
 import kotlinx.android.synthetic.main.fragment_home.*
 
@@ -39,10 +39,18 @@ class Home : Fragment() {
             val categoria = Categoria()
             categoria.titulo = "Categoria: $c"
 
+            val albuns: MutableList<Album> = ArrayList()
+            for (a in 0..19){
+                val album = Album()
+                album.album = R.drawable.spotify
+                albuns.add(album)
+            }
+
+            categoria.albuns = albuns
             categorias.add(categoria)
         }
 
-        categoriaAdapter = CategoriaAdapter(categorias)
+        categoriaAdapter = CategoriaAdapter(categorias, context!!)
         recycler_view_categorias.adapter = categoriaAdapter
         recycler_view_categorias.layoutManager = LinearLayoutManager(context)
         recycler_view_categorias.setHasFixedSize(true)
