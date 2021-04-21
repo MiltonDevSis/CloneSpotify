@@ -1,6 +1,12 @@
 package com.example.myspotify.model
 
-class Categoria(
+import com.google.gson.annotations.SerializedName
+
+data class Categoria(
+
+    @SerializedName("titulo")
     var titulo: String = "",
-    var albuns: MutableList<Album> = ArrayList()
+
+    @SerializedName("albuns")
+    var albuns: List<Album> = arrayListOf()
 )

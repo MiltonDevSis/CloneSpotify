@@ -1,5 +1,9 @@
 package com.example.myspotify.model
 
-class Album (
-    var album: Int = 0
-        )
+import com.google.gson.annotations.SerializedName
+
+data class Album(
+
+    @SerializedName("url_imagem")
+    var album: String = ""
+)
