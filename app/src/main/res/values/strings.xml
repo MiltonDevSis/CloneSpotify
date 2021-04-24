@@ -7,4 +7,7 @@
     <string name="Inicio">Início</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navegue_por_todas_as_secoes">Navegue por todas as seções</string>
+    <string name="paradas">paradas</string>
+    <string name="imagem_categorias">imagem_categorias</string>
 </resources>
