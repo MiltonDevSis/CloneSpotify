@@ -1,13 +1,20 @@
 <resources>
     <string name="app_name">MySpotify</string>
 
-
+    //fragment buscar
     <string name="Buscar">Buscar</string>
     <string name="SuaBiblioteca">Biblioteca</string>
     <string name="Inicio">Início</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="navegue_por_todas_as_secoes">Navegue por todas as seções</string>
     <string name="paradas">paradas</string>
     <string name="imagem_categorias">imagem_categorias</string>
+    <string name="crie_playlist">Crie sua primeira playlist</string>
+    <string name="e_facil">É fácil, vamos te ajudar</string>
+    <string name="criar_playlist">Criar playlist</string>
+
+    <string name="seus_artistas">Seus artistas aparecerão aqui</string>
+    <string name="adicionar_artistas">Agora você pode adicionar alguns dos seus artistas favoritos</string>
+    <string name="add_artista">Adicionar artist…</string>
+    <string name="seus_albuns">Seus álbuns aparecerão aqui</string>
 </resources>
