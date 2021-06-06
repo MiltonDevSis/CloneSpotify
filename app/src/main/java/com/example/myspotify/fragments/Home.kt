@@ -64,8 +64,6 @@ class Home : Fragment() {
                 override fun onFailure(call: Call<Categorias>, t: Throwable) {
                     Toast.makeText(context, "Erro no servidor: $t", Toast.LENGTH_LONG).show()
                 }
-
-
             })
     }
 }
