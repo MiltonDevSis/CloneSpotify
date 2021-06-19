@@ -10,6 +10,7 @@ import com.example.myspotify.fragments.Home
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 
+
 class MainActivity : AppCompatActivity() {
 
     private var Content: FrameLayout? = null
